@@ -31,6 +31,21 @@ public class Main {
                     largest=c>temp?c:temp;
                     System.out.println("The largest number is: "+largest);
                     break;
+
+                case 2:
+                    int d, e, f, smallest, tempe;
+                    System.out.println("Enter the first number:");
+                    d = sc.nextInt();
+                    System.out.println("Enter the second number:");
+                    e = sc.nextInt();
+                    System.out.println("Enter the third number:");
+                    f = sc.nextInt();
+                    tempe=d<e?d:f;
+                    smallest=f<tempe?f:tempe;
+                    System.out.println("The largest number is: "+smallest);
+                    break;
+
+
             }
         }
 
