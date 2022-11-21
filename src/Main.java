@@ -89,6 +89,14 @@ public class Main {
                     System.out.print("The reverse of the given number is = "+reverse);
                     break;
 
+                case 6:
+                    System.exit(0);
+
+                default:
+                    System.out.println("Invalid choice!!! Please make a valid choice. \\n\\n");
+
+
+
             }
             }
         }
