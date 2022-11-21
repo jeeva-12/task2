@@ -16,6 +16,22 @@ public class Main {
 
             System.out.println("Make your choice");
             choice = sc.nextInt();
+
+            switch (choice)
+            {
+                case 1:
+                    int a, b, c, largest, temp;
+                    System.out.println("Enter the first number:");
+                    a = sc.nextInt();
+                    System.out.println("Enter the second number:");
+                    b = sc.nextInt();
+                    System.out.println("Enter the third number:");
+                    c = sc.nextInt();
+                    temp=a>b?a:b;
+                    largest=c>temp?c:temp;
+                    System.out.println("The largest number is: "+largest);
+                    break;
+            }
         }
 
     }
