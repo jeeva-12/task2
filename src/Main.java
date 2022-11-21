@@ -42,7 +42,7 @@ public class Main {
                     f = sc.nextInt();
                     tempe=d<e?d:f;
                     smallest=f<tempe?f:tempe;
-                    System.out.println("The largest number is: "+smallest);
+                    System.out.println("The smallest number is: "+smallest);
                     break;
 
 
